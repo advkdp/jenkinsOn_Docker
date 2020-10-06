@@ -5,6 +5,6 @@ https://docs.docker.com/machine/install-machine/
 https://github.com/docker/compose/releases?after=1.25.5-rc2
 systemctl start docker
 
-
+sudo yum install java-1.8.0-openjdk.x86_64
 sudo chown 1000:1000 -R ~/jenkins-data
 docker logs jenkins to get password also

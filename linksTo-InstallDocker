@@ -1,0 +1,10 @@
+https://get.docker.com/
+docker-version
+usermod -aG docker jenkins
+https://docs.docker.com/machine/install-machine/
+https://github.com/docker/compose/releases?after=1.25.5-rc2
+systemctl start docker
+
+
+sudo chown 1000:1000 -R ~/jenkins-data
+docker logs jenkins to get password also
